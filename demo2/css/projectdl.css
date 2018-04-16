@@ -1,0 +1,188 @@
+/*通用*/
+
+body{
+	font:12px "microsoft yahei",Arial,Helvetica, sans-serif;color:#666;margin:0px;padding:0px;
+}
+ul,dl,dt,dd,h1,h2,h3,h4,h5,h6,li,p{
+	margin:0px;
+	padding:0px;
+	border:none;
+	list-style:none;
+}
+input {border:none;}
+.lf  {float:left;}
+.rt  {float:right;}
+.clear  {clear:both;}
+img{
+	border:none;
+}
+body{
+	color:#333;
+}
+/*整体布局*/
+#top,#main{
+	width:1440px;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+#top_box,#top_main{
+    width:1210px;
+    margin:0px auto;
+}
+/*******************导航*************/
+#top_box{
+	height:130px;
+}
+#top_box b{
+	float:left;
+	width:250px;
+	height:110px;
+	background:url(../images/lvyou.png) no-repeat;
+}
+#top_box ul{
+	float:right;
+	margin-right:100px;
+	padding:50px 0;
+}
+#top_box ul li{
+	float:left;	
+	margin-right:30px;
+}
+#top_box ul li a{
+	font-size:16px;
+}
+#top{
+	content:"";
+	display:block;
+	clear:both;
+
+}
+/**第二层**/
+#main{
+	min-height:500px;
+	background-color:#F6C801;
+}
+#top_main div{
+	float:left;
+	width:600px;
+	padding:0 10px;
+	text-align:center;
+	margin-top:80px;
+}
+
+
+#top_main div b{
+	display:block;
+	width:500px;
+	height:300px;
+	background:url(../images/china.png) no-repeat;
+}
+#top_main h1{
+	font-size:30px;
+}
+#top_main h2{
+	font-size:20px;
+	margin-top:10px;
+}
+#top_main h3{
+	font-size:16px;
+	margin-top:10px;
+}
+/*登录框**/
+#top_main ul{
+	margin:90px 0px 0 50px;
+	padding:0px 30px;
+	float:left;
+	width:350px;
+	height:350px;
+	background-color:#fff;
+	box-sizing:border-box;
+	box-shadow:0px 0px 10px 1px #000;
+	font-size:16px;
+}
+#top_main  li.main_first{
+	margin-top:20px;
+	font-size:20px;
+	text-align:center;
+}
+#top_main  li.main_second a{
+	margin-right:16px;
+}
+#top_main  li.main_second input{
+	margin-top:15px;
+	height:25px;
+	width:210px;
+	border:1px solid #ddd;
+}
+#top_main  li.main_third{
+	margin-top:15px;
+	font-size:12px;
+}
+#top_main  li.main_third input{
+	margin-left:65px;
+}
+#top_main  li.main_third a{
+	margin-left:72px;
+	color:#1166BB;
+}
+#top_main  li.main_four a{
+	display:block;
+	width:210px;
+	height:40px;
+	line-height:40px;
+	background-color:#FF8400;
+	border-radius:5px;
+	text-align:center;
+	margin-top:15px;
+	margin-left:64px;
+}
+#top_main  li.main_five{
+	margin-top:5px;
+	font-size:12px;
+}
+#top_main  li.main_five input{
+	margin-left:65px;
+}
+#top_main  li.main_five a{
+	margin-left:72px;
+	color:#1166BB;
+}
+#top_main  li.main_sex{
+	margin-top:40px;
+	font-size:12px;
+}
+#top_main  li.main_sex input{
+	margin-left:65px;
+}
+#top_main  li.main_sex p{
+	margin-top:10px;
+	height:40px;
+	line-height:40px;
+}
+#top_main  li.main_sex a{
+	margin-right:20px;
+	color:#1166BB;
+	position:relative;
+	top:-5px;
+}
+#top_main  li.main_sex b{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/qq.png) no-repeat;
+}
+#top_main  li.main_sex i{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/weixin.png) no-repeat;
+}
+#top_main  li.main_sex s{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/weibo.png) no-repeat;
+}
